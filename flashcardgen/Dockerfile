@@ -22,7 +22,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy built JAR from previous stage
-docker build -t my-app FlashGen/flashcardgen
+COPY --from=build /app/target/*.jar app.jar
 
 
 # Expose application port
