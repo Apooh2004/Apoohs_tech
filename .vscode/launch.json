@@ -4,9 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-
+        {
+            "type": "java",
+            "name": "FlashcardgenApplication",
+            "request": "launch",
+            "mainClass": "com.flashcardgen.flashcardgen.FlashcardgenApplication",
+            "projectName": "flashcardgen"
+        },
         {
             "type": "chrome",
             "request": "launch",
